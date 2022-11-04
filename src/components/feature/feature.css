@@ -1,0 +1,19 @@
+.GPT-line {
+  position: relative;
+}
+.GPT-line::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: var(--gradient-text);
+  left: 0;
+  top: -9px;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-right: 2rem;
+}

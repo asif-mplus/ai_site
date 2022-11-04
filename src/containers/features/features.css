@@ -1,0 +1,46 @@
+.features-main-container {
+  display: flex;
+  padding-top: 70px;
+  gap: 190px;
+}
+
+.features-section1 {
+  display: flex;
+  flex-direction: column;
+  width: 444px;
+  gap: 20px;
+}
+
+.features-section1 .gradient__text {
+  width: 300px;
+}
+
+.features-section1 h2 {
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+.features-section1 p {
+  color: var(--color-subtext);
+  font-size: smaller;
+}
+
+.features-section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature-subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+/*  */
+.feature-subsection .features h4 {
+  width: 188px;
+}
+.feature-subsection .features.GPT-line p {
+  flex: 1;
+}

@@ -1,0 +1,32 @@
+.glitchContainer {
+  background: url("../../../assets/ai.png");
+  background-size: cover;
+  animation: glitch 3.5s infinite steps(1);
+  width: 460px !important;
+  height: 420px !important;
+}
+@keyframes glitch {
+  0% {
+    background: url(../../../assets/ai.png);
+    background-size: cover;
+  }
+  92.5% {
+    background: url(../../../assets/ai1.png);
+    background-size: cover;
+    opacity: 1;
+  }
+  95% {
+    background: url(../../../assets/ai2.png);
+    background-size: cover;
+    opacity: 0;
+  }
+  97.5% {
+    background: url(../../../assets/ai3.png);
+    background-size: cover;
+    opacity: 1;
+  }
+  100% {
+    background: url(../../../assets/ai.png);
+    background-size: cover;
+  }
+}

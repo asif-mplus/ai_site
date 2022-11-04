@@ -1,0 +1,24 @@
+.possibility-main-container {
+  display: flex;
+  gap: 33px;
+}
+
+.possibility-image img {
+  width: 400px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.possibility-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.sub {
+  color: var(--color-subtext);
+}

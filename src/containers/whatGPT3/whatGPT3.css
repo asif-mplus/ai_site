@@ -1,0 +1,110 @@
+.whatgpt3-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+  /* padding: 2rem; */
+  background: var(--color-footer);
+  padding: 60px;
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h4 {
+  color: white;
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+p {
+  font-family: var(--font-family);
+  color: var(--color-text);
+}
+h3 {
+  font-family: var(--font-family);
+  font-size: 28px;
+}
+
+.desc-gpt {
+  flex: 1;
+}
+.sub-container-1 {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 175px;
+}
+
+.whatgpt3-main-container hr {
+  width: 40px;
+  border-top: 2px solid var(--gradient-text);
+}
+
+/*  */
+/* .GPT-line {
+  position: relative;
+}
+.GPT-line::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: var(--gradient-text);
+  left: 0;
+  top: -9px;
+} */
+
+.sub-container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-container-3 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 111px;
+}
+
+.sub-container-3 .features {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
